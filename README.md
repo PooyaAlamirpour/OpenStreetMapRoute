@@ -1,12 +1,13 @@
 # OpenStreetMap Route Planner
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 A* is the name of an algorithm that was created as part of the [Shakey project](https://en.wikipedia.org/wiki/Shakey_the_robot). Mainly this algorithm is a graph path search that is often used in computer science due to its completeness, optimality, and optimal efficiency.
 In this project, I have implemented a routing application for finding path between two points on the OpenStreetMap. For building and using this project follow by below steps:
 
 ### Building and Running
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```bash
-git clone git@github.com:PooyaAlamirpour/OpenStreetMapRoute.git --recurse-submodules
+git clone https://github.com/PooyaAlamirpour/OpenStreetMapRoute.git --recurse-submodules
 ```
 Before you start to build this project you should consider preparing some dependencies. 
 * cmake >= 3.11.3
