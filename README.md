@@ -35,7 +35,7 @@ The executable will be placed in the `build` directory. From within `build`, you
 ```
 ./OSM_A_star_search
 ```
-Once the project run successfully you should the result as below image:
+Once the project run successfully you should see the result as below image:
 
 ![Output](https://github.com/PooyaAlamirpour/OpenStreetMapRoute/blob/master/images/Output.png)
 
