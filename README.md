@@ -29,6 +29,13 @@ Before you start to build this project you should consider preparing some depend
 	Install Cairo: sudo apt install libcairo2-dev
 	Install graphicsmagick: sudo apt install libgraphicsmagick1-dev
 	Install libpng: sudo apt install libpng-dev
+	
+	git clone --recurse-submodules https://github.com/cpp-io2d/P0267_RefImpl
+	cd P0267_RefImpl
+	mkdir Debug
+	cd Debug
+	cmake --config Debug "-DCMAKE_BUILD_TYPE=Debug" ..
+	cmake --build .
 	```
   * This library must be built in a place where CMake `find_package` will be able to find it
 
