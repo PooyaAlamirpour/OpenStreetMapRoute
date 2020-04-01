@@ -22,6 +22,14 @@ Before you start to build this project you should consider preparing some depend
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
+	```bash
+	Refresh apt: sudo apt update
+	Install GCC: sudo apt install build-essential
+	Install CMake: sudo apt install cmake
+	Install Cairo: sudo apt install libcairo2-dev
+	Install graphicsmagick: sudo apt install libgraphicsmagick1-dev
+	Install libpng: sudo apt install libpng-dev
+	```
   * This library must be built in a place where CMake `find_package` will be able to find it
 
 To compile the project, first, create a `build` directory and change to that directory:
