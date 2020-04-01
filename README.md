@@ -36,6 +36,7 @@ Before you start to build this project you should consider preparing some depend
 	cd Debug
 	cmake --config Debug "-DCMAKE_BUILD_TYPE=Debug" ..
 	cmake --build .
+	sudo make install
 	```
   * This library must be built in a place where CMake `find_package` will be able to find it
 
